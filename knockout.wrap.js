@@ -97,7 +97,7 @@
                 return unwrapArray(val);
             }
             else {
-                return val;
+                return unwrap(val);
             }
         }
         else {
